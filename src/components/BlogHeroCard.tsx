@@ -6,7 +6,7 @@ import Button from './Button';
 
 const BlogHeroCard = () => {
   return (
-    <section className="bg-white py-20 max-sm:hidde">
+    <section className="bg-white py-20 ">
         <Container>
     <div className="w-full max-w-6xl mx-auto rounded-3xl  shadow-lg">
       {/* Image Section */}
