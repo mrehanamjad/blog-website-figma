@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import Button from './Button';
 
 interface Reply {
   id: number;
@@ -93,12 +94,7 @@ const CommentSection = () => {
               required
             />
           </div>
-          <button 
-            type="submit" 
-            className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-          >
-            Post Comment
-          </button>
+          <Button>Post Comment</Button>
         </form>
       </div>
 
@@ -116,7 +112,7 @@ const CommentSection = () => {
             {/* Reply Button */}
             <button 
               onClick={() => setReplyingTo(replyingTo === comment.id ? null : comment.id)}
-              className="text-blue-500 hover:text-blue-600 text-sm mb-4"
+              className="text-purple-500 hover:text-purple-600 text-sm mb-4"
             >
               {replyingTo === comment.id ? 'Cancel Reply' : 'Reply'}
             </button>
@@ -140,12 +136,8 @@ const CommentSection = () => {
                     className="w-full min-h-[80px] p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     required
                   />
-                  <button 
-                    onClick={() => handleSubmitReply(comment.id)}
-                    className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-                  >
-                    Post Reply
-                  </button>
+                  <Button onClick={() => handleSubmitReply(comment.id)} >Post Reply</Button>
+
                 </div>
               </div>
             )}
