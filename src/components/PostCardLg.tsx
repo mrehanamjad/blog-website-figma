@@ -41,7 +41,7 @@ const PostCardLg = () => {
         {/* Read More Button */}
         <div>
           <Link
-            href="/blog/vr-ai-game"
+            href="/blogs/vr-ai-game"
           >
             <Button varient='transparent'>Read More</Button>
           </Link>

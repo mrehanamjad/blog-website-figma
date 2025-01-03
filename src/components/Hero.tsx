@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./Container";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -47,14 +48,14 @@ export default function Hero() {
                 and possibly cute. For example, home robots will overcome
                 navigation, direction
               </p>
-
+<Link href={"/blogs/how-ai-will-Change-the-future"}>
               <button
                 className="bg-white text-purple-600 px-8 py-3 rounded-lg 
                            font-medium hover:bg-opacity-90 transition-all 
                            inline-flex items-center gap-2"
               >
                 Read more
-              </button>
+              </button></Link>
             </div>
 
             {/* Image Container */}

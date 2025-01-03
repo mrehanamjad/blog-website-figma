@@ -44,7 +44,7 @@ const BlogHeroCard = () => {
         {/* Read More Button */}
         <div>
           <Link 
-            href="/blog/vr-ai-game-development"
+            href="/blogs/vr-ai-game"
           >
            <Button varient='transparent'> Read More </Button>
           </Link>

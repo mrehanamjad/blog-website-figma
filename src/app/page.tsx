@@ -7,7 +7,7 @@ import PostCardContainer from "@/components/PostCardContainer";
 
 export default function Home() {
 
-      const recent = data.articles.filter((article,i) => i+1 > 6 );
+      const recent = data.articles.filter((article,i) => i+1 > 6 && i+1 < 10 );
       const popular = data. articles.filter((article,i) => i+1 <= 6 );
 
   return (
