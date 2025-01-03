@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const PostCard = ({imgSrc,category,date,title,description,id}:{imgSrc:string,category:string,date:string,title:string,description:string,id?:string}) => {
   return (
@@ -7,8 +8,10 @@ const PostCard = ({imgSrc,category,date,title,description,id}:{imgSrc:string,cat
     <div className="max-w-sm rounded-3xl mx-auto overflow-hidden bg-white hover:shadow-lg">
       {/* Image Container */}
       <div className="relative h-60 w-full">
-        <img
+        <Image
           src={imgSrc}
+          height={1000}
+          width={1000}
           alt="Tropical beach with seaplane"
           className="w-full h-full object-cover rounded-3xl"
         />

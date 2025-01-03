@@ -35,7 +35,7 @@ const PostCardLg = () => {
 
         {/* Description */}
         <p className="text-gray-600 mb-6 leading-relaxed">
-          Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it's publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we're committed to making AI accessible to everyone.
+          Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it&apos;s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we&apos;re committed to making AI accessible to everyone.
         </p>
 
         {/* Read More Button */}

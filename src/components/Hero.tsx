@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./Container";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -59,9 +60,11 @@ export default function Hero() {
             {/* Image Container */}
             <div className="flex-1 max-w-lg">
               <div className="rounded-3xl overflow-hidden bg-navy-900 p-4">
-                <img
+                <Image
                   src="/hero.png"
                   alt="AI Future Concept"
+                  width={1000}
+                  height={1000}
                   className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
