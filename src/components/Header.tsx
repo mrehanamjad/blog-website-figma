@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Container from "./Container";
-import Button from "./Button";
 import Logo from "./Logo";
 
 const Header = () => {

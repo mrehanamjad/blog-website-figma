@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 
 function Logo({size = "xl"}:{size?:"lg"|"xl"|"2xl"|"3xl"|"4xl"|"5xl"}) {
