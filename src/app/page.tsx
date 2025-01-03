@@ -1,11 +1,7 @@
 import BlogHeroCard from "@/components/BlogHeroCard";
-import Button from "@/components/Button";
-import Container from "@/components/Container";
 import Hero from "@/components/Hero";
 import PostCard from "@/components/PostCard";
 import PostCardLg from "@/components/PostCardLg";
-import Image from "next/image";
-import Link from "next/link";
 import data from "@/data/data.json";
 import PostCardContainer from "@/components/PostCardContainer";
 
