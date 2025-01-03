@@ -27,7 +27,7 @@ async function post({ params }: { params: { slug: string } }) {
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold">{article?.title}</h1>
                 </div>
-                <div className="py-2 px-4 relative my-6 w-full h-[35rem] rounded-2xl flex justify-center items-center bg-gray-500">
+                <div className="py-2 px-4 relative my-16 max-w-5xl mx-auto w-full h-[35rem] rounded-2xl flex justify-center items-center bg-gray-500">
                     <Image
                         src={article?.imgSrc as string}
                         alt="blog image"
